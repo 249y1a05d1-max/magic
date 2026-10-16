@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar and Birbal - The Real Thief</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #fff3e0);
+            color: #333;
+        }
+
+        header {
+            background: #283593;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        header h1 {
+            font-size: 34px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px #0002;
+        }
+
+        .illustration {
+            text-align: center;
+            font-size: 60px;
+            background: #e8eaf6;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #283593;
+        }
+
+        .story {
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        .box {
+            background: #fff8e1;
+            padding: 15px;
+            border-left: 5px solid #ffb300;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #283593;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1565c0;
+        }
+
+        #answer {
+            display: none;
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            line-height: 1.7;
+        }
+
+        footer {
+            background: #283593;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Akbar and Birbal</h1>
+        <p>The Mystery of the Real Thief</p>
+    </header>
+
+    <div class="container">
+
+        <div class="illustration">👑 🏰 🔍</div>
+
+        <h2>The Story Begins</h2>
+
+        <div class="story">
+            <p>
+                One day, a merchant came to Emperor Akbar's court and
+                complained that some of his money had been stolen.
+                He suspected one of his servants.
+            </p>
+
+            <p>
+                Akbar asked Birbal to solve the mystery.
+                Birbal called all the servants and gave each of them a stick
+                of the same length.
+            </p>
+
+            <p>
+                Birbal told them, "The stick belonging to the thief will
+                become two inches longer by tomorrow morning."
+            </p>
+
+            <p>
+                The servants went home with their sticks.
+                The next morning, they returned to the court.
+                Birbal carefully checked every stick.
+            </p>
+
+            <p>
+                One servant's stick was shorter than the others.
+                Birbal immediately identified him as the thief.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>How Did Birbal Find the Thief?</h2>
+            <p>
+                Can you guess why the thief's stick was shorter?
+                Click the button below to discover Birbal's clever trick!
+            </p>
+
+            <button onclick="revealAnswer()">Reveal the Answer</button>
+
+            <div id="answer">
+                <b>Birbal's clever idea:</b>
+                The frightened thief believed his stick would become longer,
+                so he secretly cut two inches off it to avoid being caught.
+                Birbal noticed the shorter stick and identified the thief.
+            </div>
+        </div>
+
+        <h2>Moral of the Story</h2>
+        <p>
+            Truth and clever thinking can help uncover dishonesty.
+        </p>
+
+    </div>
+
+    <footer>
+        <p>✨ Wisdom is more powerful than fear! ✨</p>
+    </footer>
+
+    <script>
+        function revealAnswer() {
+            document.getElementById("answer").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
